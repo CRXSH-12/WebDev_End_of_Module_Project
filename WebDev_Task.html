@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewpoint" content="width=device-width, initial-scale=1">
+  
+  <title>Web Development Task</title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+ 
+  <link rel="stylesheet" type="text/css" href="WebDev_Task.css">
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+  
+  <!--Narvagation Bar used to display navigational pathways-->
+  <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+    <a class="navbar-brand" href="#">
+      <img src="myLogo.png" alt="Company Logo" style="width: 65px;">
+    </a>
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">News Feed</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Users</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Admin</a>
+      </li>
+    </ul>
+  </nav>
+
+<!--Cards In Column form, 3 columns per row-->
+  <div class="container">
+    <div class="row">
+      <div class="col-sm">
+
+
+<!--Employee 1: Jaseh Onfroy-->
+        <div class="card">
+          <img src="xxxtentacion.jpg" alt="XXXTentacion" class="profile-image">
+          <h4 class="card-title">Jaseh Onfroy</h4>
+          <p class="card-text">Email: xxxtentacion@gmail.com</p>
+          <p class="card-text">Moblie Number: 072 578 2869</p>
+          <p class="card-text">Landline: 021 114 4744</p>
+          <button type="button" class="btn-secondary btn-sm" data-toggle="modal" data-target="#employee1Modal">Employee
+            Information</button>
+          <button type="button" class="btn-danger btn-sm" data-toggle="modal" data-target="del1profile">Delete User</button>
+        </div>
+      </div>
+      <div class="col-sm">
+
+
+<!--Employee 2: Gustav Elijah Ahr -->
+        <div class="card">
+          <img src="peep.jpg" alt="Lil Peep" class="profile-image">
+          <h4 class="card-title">Gustav Elijah Ahr</h4>
+          <p class="card-text">Email: lilpeep@gmail.com</p>
+          <p class="card-text">Moblie Number: 062 768 3521</p>
+          <p class="card-text">Landline: 021 212 8832</p>
+          <button type="button" class="btn-secondary btn-sm" data-toggle="modal" data-target="#employee2Modal">Employee
+            Information</button>
+          <button type="button" class="btn-danger btn-sm" data-toggle="modal" data-target="del1profile">Delete User</button>
+        </div>
+      </div>
+      <div class="col-sm">
+
+<!--Employee 3: Jarad Anthony Higgins-->
+        <div class="card">
+          <img src="juicewrld.jpg" alt="JuiceWrld" class="profile-image">
+          <h4 class="card-title">Jarad Anthony Higgins</h4>
+          <p class="card-text">Email: JuiceWrld@gmail.com</p>
+          <p class="card-text">Moblie Number: 072 551 4390</p>
+          <p class="card-text">Landline: 021 595 7294</p>
+          <button type="button" class="btn-secondary btn-sm" data-toggle="modal" data-target="#employee3Modal">Employee
+            Information</button>
+          <button type="button" class="btn-danger btn-sm" data-toggle="modal" data-target="del1profile">Delete User</button>
+        </div>
+      </div>
+      <div class="col-sm">
+
+<!--Employee 4: Madison Elle Beer-->
+        <div class="card">
+          <img src="madison.jpg" alt="Madison Beer" class="profile-image">
+          <h4 class="card-title">Madison Elle Beer</h4>
+          <p class="card-text">Email: MadisonB@gmail.com</p>
+          <p class="card-text">Moblie Number: 061 976 1750</p>
+          <p class="card-text">Landline: 021 936 1000</p>
+          <button type="button" class="btn-secondary btn-sm" data-toggle="modal" data-target="#employee4Modal">Employee
+            Information</button>
+          <button type="button" class="btn-danger btn-sm" data-toggle="modal" data-target="del1profile">Delete User</button>
+        </div>
+      </div>
+      <div class="col-sm">
+
+<!--Employee 5: Nina Dobrev-->
+        <div class="card">
+          <img src="nina.jpg" alt="young male" class="profile-image">
+          <h4 class="card-title">Nina Dobrev</h4>
+          <p class="card-text">Email: NinaDobrev@gmail.com</p>
+          <p class="card-text">Moblie Number: 083 044 2245</p>
+          <p class="card-text">Landline: 021 628 3333</p>
+          <button type="button" class="btn-secondary btn-sm" data-toggle="modal" data-target="#employee5Modal">Employee
+            Information</button>
+          <button type="button" class="btn-danger btn-sm" data-toggle="modal" data-target="del1profile">Delete User</button>
+        </div>
+      </div>
+      <div class="col-sm">
+
+<!--Employee 6: Scarlett Johansson-->
+        <div class="card">
+          <img src="scarlett.jpg" alt="young male" class="profile-image">
+          <h4 class="card-title">Scarlett Johansson</h4>
+          <p class="card-text">Email: BlackWidow@gmail.com</p>
+          <p class="card-text">Moblie Number: 063 820 0221</p>
+          <p class="card-text">Landline: 021 789 8360</p>
+          <button type="button" class="btn-secondary btn-sm" data-toggle="modal" data-target="#employee6Modal">Employee
+            Information</button>
+          <button type="button" class="btn-danger btn-sm" data-toggle="modal" data-target="del1profile">Delete User</button>
+        </div>
+      </div>
+    </div>
+
+<!--Modal for Jaseh Onfroy-->
+    <div class="modal fade" id="employee1Modal">
+      <div class="modal-dialog modal-dialog-scrollable modal-md">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3>Employee Information</h3>
+            <button type="button" class="close" data-dismiss="modal">x</button>
+          </div>
+          <div class="modal-body">
+            <p>Home Address: Florida Miami</p>
+            <p>Next Of Kin: Gekyume (Son)</p>
+            <p>Next Of Kin Contact Details: 
+              <ul>
+                <li>Email: Gekyume@gmail.com</li>
+                <li>Cell: 082 844 6395</li>
+              </ul>
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!--Modal for Gustav Elijah Ahr-->
+    <div class="modal fade" id="employee2Modal">
+      <div class="modal-dialog modal-dialog-scrollable modal-md">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3>Employee Information</h3>
+            <button type="button" class="close" data-dismiss="modal">x</button>
+          </div>
+          <div class="modal-body">
+            <p>Home Address: Long Island New York</p>
+            <p>Next Of Kin: Jade Ahr (Daughter)</p>
+            <p>Next Of Kin Contact Details: 
+              <ul>
+                <li>Email: Jade.Ahr@gmail.com</li>
+                <li>Cell: 073 489 5572</li>
+              </ul>
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!--Modal for Jarad Anthony Higgins-->
+    <div class="modal fade" id="employee3Modal">
+      <div class="modal-dialog modal-dialog-scrollable modal-md">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3>Employee Information</h3>
+            <button type="button" class="close" data-dismiss="modal">x</button>
+          </div>
+          <div class="modal-body">
+            <p>Home Address: Calumet Park Illinois</p>
+            <p>Next Of Kin: Justine Higgins (Mother)</p>
+            <p>Next Of Kin Contact Details: 
+              <ul>
+                <li>Email: JustineHiggins@gmail.com</li>
+                <li>Cell: 072 663 7878</li>
+              </ul>
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!--Modal for Madison Beer-->
+    <div class="modal fade" id="employee4Modal">
+      <div class="modal-dialog modal-dialog-scrollable modal-md">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3>Employee Information</h3>
+            <button type="button" class="close" data-dismiss="modal">x</button>
+          </div>
+          <div class="modal-body">
+            <p>Home Address: California Los Angeles</p>
+            <p>Next Of Kin: Roseline Beer (Mother)</p>
+            <p>Next Of Kin Contact Details: 
+              <ul>
+                <li>Email: RoselineBeer@gmail.com</li>
+                <li>Cell: 555 606 8908</li>
+              </ul>
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!--Modal for Nina Dobrev-->
+    <div class="modal fade" id="employee5Modal">
+      <div class="modal-dialog modal-dialog-scrollable modal-md">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3>Employee Information</h3>
+            <button type="button" class="close" data-dismiss="modal">x</button>
+          </div>
+          <div class="modal-body">
+            <p>Home Address: Toronto</p>
+            <p>Next Of Kin: Jasmine Dobrev (Daughter)</p>
+            <p>Next Of Kin Contact Details:
+               <ul>
+                <li>Email: JasmineDobrev@gmail.com</li>
+                <li>Cell: 084 668 2284</li>
+              </ul>
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!--Modal for Scarlett Johansson-->
+    <div class="modal fade" id="employee6Modal">
+      <div class="modal-dialog modal-dialog-scrollable modal-md">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3>Employee Information</h3>
+            <button type="button" class="close" data-dismiss="modal">x</button>
+          </div>
+          <div class="modal-body">
+            <p>Home Address: Boston Texas</p>
+            <p>Next Of Kin: Kevin Johnsson (Son)</p>
+            <p>Next Of Kin Contact Details:
+              <ul>
+                <li>Email: kevinJ@gmail.com</li>
+                <li>Cell: 071 907 8480</li>
+              </ul>
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- Form used to add new Employee as well as inline CSS functions used for styling-->
+<h2>Create new user profile below</h2>
+
+<form action="/action_page.php" class="was-validated">
+    <div class="form-group">
+      <label for="newName">Name:</label>
+      <input type="text" class="form-control" id="newName" placeholder="Enter your name" name="newName" required>
+      <div class="valid-feedback">Valid.</div>
+      <div class="invalid-feedback">Please fill out this field.</div>
+    </div>
+  <button style="background-color: grey" type="confirm" class="btn btn-primary">Confirm</button>
+
+<form action="/action_page.php" class="was-validated">
+    <div class="form-group">
+      <label for="newSurname">Surname:</label>
+      <input type="text" class="form-control" id="newSurname" placeholder="Enter your surname" name="newSurname" required>
+      <div class="valid-feedback">Valid.</div>
+      <div class="invalid-feedback">Please fill out this field.</div>
+    </div>
+<button style="background-color: grey" type="confirm" class="btn btn-primary">Confirm</button>
+
+<form action="/action_page.php" class="was-validated">
+    <div class="form-group">
+      <label for="newEmail">Email Address:</label>
+      <input type="text" class="form-control" id="newEmail" placeholder="Enter your email address" name="newEmail" required>
+      <div class="valid-feedback">Valid.</div>
+      <div class="invalid-feedback">Please fill out this field.</div>
+    </div>
+<button style="background-color: grey" type="confirm" class="btn btn-primary">Confirm</button>    
+
+<form action="/action_page.php" class="was-validated">
+    <div class="form-group">
+      <label for="mobileNum">Mobile Number:</label>
+      <input type="text" class="form-control" id="mobileNum" placeholder="Enter your mobile number" name="mobileNum" required>
+      <div class="valid-feedback">Valid.</div>
+      <div class="invalid-feedback">Please fill out this field.</div>
+    </div>
+  <button style="background-color: grey" type="confirm" class="btn btn-primary">Confirm</button>
+
+<form action="/action_page.php" class="was-validated">
+    <div class="form-group">
+      <label for="landNum">Landline Number:</label>
+      <input type="text" class="form-control" id="landNum" placeholder="Enter your landline number" name="landNum" required>
+      <div class="valid-feedback">Valid.</div>
+      <div class="invalid-feedback">Please fill out this field.</div>
+    </div>
+<button style="background-color: grey" type="confirm" class="btn btn-primary">Confirm</button>
+
+<form action="/action_page.php" class="was-validated">
+    <div class="form-group">
+      <label for="homeAddress">Home Address:</label>
+      <input type="text" class="form-control" id="homeAddress" placeholder="Enter your Home Address" name="homeAddress" required>
+      <div class="valid-feedback">Valid.</div>
+      <div class="invalid-feedback">Please fill out this field.</div>
+    </div>
+<button style="background-color: grey" type="confirm" class="btn btn-primary">Confirm</button>  
+
+<form action="/action_page.php" class="was-validated">
+    <div class="form-group">
+      <label for="nextKin">Next Of Kin:</label>
+      <input type="text" class="form-control" id="surname" placeholder="Next Of Kin" name="nextKin" required>
+      <div class="valid-feedback">Valid.</div>
+      <div class="invalid-feedback">Please fill out this field.</div>
+    </div>
+<button style="background-color: grey" type="confirm" class="btn btn-primary">Confirm</button>
+
+<form action="/action_page.php" class="was-validated">
+    <div class="form-group">
+      <label for="kinContact">Next Of Kin (Contact Details):</label>
+      <input type="text" class="form-control" id="kinContact" placeholder="Enter Next Of Kin contact details" name="kinContact" required>
+      <div class="valid-feedback">Valid.</div>
+      <div class="invalid-feedback">Please fill out this field.</div>
+    </div>
+<button style="background-color: grey" type="confirm" class="btn btn-primary">Confirm</button>
+
+<br>
+<br>
+    <div class="form-group form-check">
+      <label class="form-check-label">
+        <input class="form-check-input" type="checkbox" name="remember" required> I am not a robot.
+        <div class="valid-feedback">Valid.</div>
+        <div class="invalid-feedback">Check this checkbox to continue.</div>
+      </label>
+    </div>
+
+<button style="background-color: indigo" type="confirm" class="btn btn-primary">Confirm</button>
+</form>
+
+</form>
+
+</body>
+
+</html>
